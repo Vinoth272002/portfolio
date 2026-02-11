@@ -8,7 +8,7 @@ export const PROFILE = {
   github: "https://github.com/Vinoth272002",
   tagline: "Building friction-free web experiences.",
   summary: "I build clean, easy-to-use web experiences that help people get work done without friction. I care about how users feel when they use a product—whether things make sense, respond smoothly, and don’t get in their way.",
-  resumeLink: "/Vinothkumar_Resume.pdf" // Replace with your actual hosted PDF link
+  resumeLink: "/public/Vinothkumar_Resume.pdf" // Replace with your actual hosted PDF link
 };
 
 export const EXPERIENCE = [
