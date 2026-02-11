@@ -21,6 +21,7 @@ import {
   FileText
 } from "lucide-react";
 import profileImage from './assets/vinoth.png';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -312,6 +313,8 @@ export default function App() {
         </section>
 
       </main>
+      
+      <Analytics/>
     </div>
   );
 }
