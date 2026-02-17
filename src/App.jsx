@@ -113,7 +113,7 @@ export default function App() {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-snug mb-8">
-            Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400">clean, frictionless</span> web experiences.
+            Building <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 leading-[130%]">clean, frictionless</span> web experiences.
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 leading-relaxed mb-10 max-w-2xl">
