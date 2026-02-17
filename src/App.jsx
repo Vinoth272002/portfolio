@@ -252,8 +252,12 @@ export default function App() {
               <SpotlightCard key={project.id} className="group flex flex-col h-full">
                 <div className="p-8 flex-1 flex flex-col">
                   <div className="flex justify-between items-start mb-4">
+                    <div className="flex items-center items-start">
                     <div className="p-3 rounded-lg bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400">
                       {project.title.includes("Movie") ? <Monitor size={24} /> : <Code2 size={24} />}
+
+                    </div>
+                      <div className="pl-3 text-sm dark:text-gray-400">{project.status}</div>
                     </div>
                     <a href={project.link} target="_blank" rel="noreferrer" className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors">
                       <ArrowUpRight size={20} className="text-gray-400 hover:text-blue-500 transition-colors" />
