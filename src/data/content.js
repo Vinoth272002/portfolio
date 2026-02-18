@@ -70,7 +70,7 @@ export const PROJECTS = [
   {
     id: 5,
     title: "FlowBit",
-    status: "process",
+    status: "Inprogress",
     role: "Personal Project",
     description: "A personal finance application that helps users track income and expenses to gain clear visibility into their financial health.",
     link: "https://github.com/Vinoth272002/expense-tracker-client",
